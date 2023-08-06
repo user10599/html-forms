@@ -18,7 +18,7 @@ function homeButtonClicked(){
     redirectToLink(home_location);
 }
 
-var new_patient_location = '../Forms/nouveau-patient.html';
+var new_patient_location = '/Forms/nouveau-patient.html';
 var visite_medicale_location = '../Forms/visite-medicale.html';
 var signes_vitaux_location = '../Forms/signes-vitaux-habitudes.html';
 var formulare_transfer_location = '../Forms/transfert.html'; 
