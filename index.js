@@ -18,13 +18,13 @@ function homeButtonClicked(){
     redirectToLink(home_location);
 }
 
-var new_patient_location = 'Forms/nouveau-patient.html';
-var visite_medicale_location = 'Forms/visite-medicale.html';
-var signes_vitaux_location = 'Forms/signes-vitaux-habitudes.html';
-var formulare_transfer_location = 'Forms/transfert.html'; 
-var ordonnance_pharmaceutique_location = 'Forms/ordonnance-pharmaceutique.html';
-var formulaire_de_deces_location = 'Forms/formulaire-deces.html';
-var formulaire_de_dechargement = 'Forms/formulaire-decharge.html';
+var new_patient_location = 'nouveau-patient.html';
+var visite_medicale_location = 'visite-medicale.html';
+var signes_vitaux_location = 'signes-vitaux-habitudes.html';
+var formulare_transfer_location = 'transfert.html'; 
+var ordonnance_pharmaceutique_location = 'ordonnance-pharmaceutique.html';
+var formulaire_de_deces_location = 'formulaire-deces.html';
+var formulaire_de_dechargement = 'formulaire-decharge.html';
 
 function newPatientClicked(){
 redirectToLink(new_patient_location);
