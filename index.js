@@ -6,7 +6,7 @@ function redirectToLink(location){
 //alert("Working!")
 
 var home_button = document.getElementsByClassName('home')[0];
-var home_location = '/index.html'//http://127.0.0.1:3000/index.html';
+var home_location = '/html-forms/index.html'//http://127.0.0.1:3000/index.html';
 console.log(home_button);
 
 home_button.addEventListener('click',() => {
