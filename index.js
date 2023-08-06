@@ -18,13 +18,13 @@ function homeButtonClicked(){
     redirectToLink(home_location);
 }
 
-var new_patient_location = 'user10599.github.io/html-forms/Forms/nouveau-patient.html';
-var visite_medicale_location = 'user10599.github.io/html-forms/Forms/visite-medicale.html';
-var signes_vitaux_location = 'user10599.github.io/html-forms/Forms/signes-vitaux-habitudes.html';
-var formulare_transfer_location = 'user10599.github.io/html-forms/Forms/transfert.html'; 
-var ordonnance_pharmaceutique_location = 'user10599.github.io/html-forms/Forms/ordonnance-pharmaceutique.html';
-var formulaire_de_deces_location = 'user10599.github.io/html-forms/Forms/formulaire-deces.html';
-var formulaire_de_dechargement = 'user10599.github.io/html-forms/Forms/formulaire-decharge.html';
+var new_patient_location = 'Forms/nouveau-patient.html';
+var visite_medicale_location = 'Forms/visite-medicale.html';
+var signes_vitaux_location = 'Forms/signes-vitaux-habitudes.html';
+var formulare_transfer_location = 'Forms/transfert.html'; 
+var ordonnance_pharmaceutique_location = 'Forms/ordonnance-pharmaceutique.html';
+var formulaire_de_deces_location = 'Forms/formulaire-deces.html';
+var formulaire_de_dechargement = 'https://www.user10599.github.io/html-forms/Forms/formulaire-decharge.html';
 
 function newPatientClicked(){
 redirectToLink(new_patient_location);
