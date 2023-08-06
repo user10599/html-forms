@@ -6,7 +6,7 @@ function redirectToLink(location){
 //alert("Working!")
 
 var home_button = document.getElementsByClassName('home')[0];
-var home_location = 'https://user10599.github.io/html-forms/'//http://127.0.0.1:3000/index.html';
+var home_location = 'user10599.github.io/html-forms/'//http://127.0.0.1:3000/index.html';
 console.log(home_button);
 
 home_button.addEventListener('click',() => {
@@ -18,13 +18,13 @@ function homeButtonClicked(){
     redirectToLink(home_location);
 }
 
-var new_patient_location = 'nouveau-patient.html';
-var visite_medicale_location = 'visite-medicale.html';
-var signes_vitaux_location = 'signes-vitaux-habitudes.html';
-var formulare_transfer_location = 'transfert.html'; 
-var ordonnance_pharmaceutique_location = 'ordonnance-pharmaceutique.html';
-var formulaire_de_deces_location = 'formulaire-deces.html';
-var formulaire_de_dechargement = 'formulaire-decharge.html';
+var new_patient_location = 'user10599.github.io/html-forms/Forms/nouveau-patient.html';
+var visite_medicale_location = 'user10599.github.io/html-forms/Forms/visite-medicale.html';
+var signes_vitaux_location = 'user10599.github.io/html-forms/Forms/signes-vitaux-habitudes.html';
+var formulare_transfer_location = 'user10599.github.io/html-forms/Forms/transfert.html'; 
+var ordonnance_pharmaceutique_location = 'user10599.github.io/html-forms/Forms/ordonnance-pharmaceutique.html';
+var formulaire_de_deces_location = 'user10599.github.io/html-forms/Forms/formulaire-deces.html';
+var formulaire_de_dechargement = 'user10599.github.io/html-forms/Forms/formulaire-decharge.html';
 
 function newPatientClicked(){
 redirectToLink(new_patient_location);
