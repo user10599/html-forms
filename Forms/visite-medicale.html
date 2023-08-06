@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visite m&ee;dicale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;0,900;1,900&family=Roboto:wght@300&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="../forms.css">
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <li class="item- home" onclick="homeButtonClicked()">
+            <!-- <span class="back-icon material-symbols-outlined">
+            arrow_back
+        </span> -->
+            <span class="material-symbols-outlined">
+                home
+            </span><br><span>Page d'accueil</span>
+            <!-- Retour vers la page d'acceuil -->
+        </li>
+        <li class="item- settings">
+            <span class="material-symbols-outlined">
+                settings
+            </span><br>
+            <span>Paramètres</span>
+        </li>
+    </div>
+    <section class="form-container">
+        <form action="">
+            <span>Visite médicale</span>
+           <section id="identifiant-dossier">
+                <label for="">Date du jour</label><br>
+                <input type="date" name="" id=""><br>
+                <input type="number" name="" id="" placeholder="Identifiant de dossier">
+            </section>
+
+            <section id="information-personelles">
+                <span>Informations personelles</span><br>
+                <input type="text" name="" id="" placeholder="Nom de famille">
+                <input type="text" name="" id="" placeholder="Prénom"><br>
+                <label for="">Date de naissance</label><br>
+                <input type="date" name="" id=""><br>
+                <label>Genre</label><br>
+                <label for="">Masculin</label>
+                <input type="checkbox" name="male" id="">
+                <label for="">Féminin</label>
+                <input type="checkbox" name="female" id=""><br>
+                <input type="tel" name="" id="" placeholder="Numéro de téléphone"><br>
+                <label for="">Addresse</label><br>
+                <input type="text" name="" id="" placeholder="Rue">
+                <input type="text" name="" id="" placeholder="Ville">
+                <input type="text" name="" id="" placeholder="Département">
+                <input type="email" name="" placeholder="Addresse e-mail" id=""><br>
+                <label>Etat civil</label><br>
+                <select name="" id="">
+                    <option value="">Célibataire</option>
+                    <option value="">Marié(e)</option>
+                    <option value="">Séparé/Divorcé</option>
+                    <option value="">Veuf/Veuve</option>
+                </select><br>
+            </section> 
+
+            <section id="authentification-personne">
+                <span>Authentification de la personne</span>
+                <input type="number" name="" id="" placeholder="Numéro d'identification médicale">
+                <input type="number" name="" id="" placeholder="Numéro d'identification de citoyen"><br>
+                <label for="">Empreinte digitale</label><br>
+                <img style="width:75px;height:75px;" src="./images/fingerprint.jpeg" alt="empreinte digitale"
+                    class="empreinte-digitale">
+            </section>
+
+            <section id="antécédents-familiaux">
+                <span>Antécédents personels et familiaux</span><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Asthme</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Anémie</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Cancer</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Maladie cardiaque</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Diabète</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Hypertension</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Troubles mentaux</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Epilepsie</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">VIH/SIDA</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Lupus</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Maladie auto-immune</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Déséquilibre hormonal</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Maladie du foi</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Maladie thyroïdienne</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Migraine</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Accidents cérébrovasculaires</label>
+                <br>
+                <label for="">Autres? Veuilleuz préciser</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <label for="">Etes vous adopté(e)?</label>
+                <label for="">Oui</label>
+                <input type="radio" name="" id="">
+                <label for="">Non</label>
+                <input type="radio" name="" id="">
+            </section>
+
+            <section id="antécédents-personnels">
+                <span>Condition(s)/Maladie(s)/Sympt&#244me(s)(2 derni&#232res semaines</span><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Fi&#232vre et frissons</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Changement de poids</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Migraines/Maux de t&#234te</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Etourdissement/Vertiges</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Douleur de sinus/Pression nasale</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Ventre ballonn&eacute;/gonfl&eacute;
+                </label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Ronflements excessifs</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Toux/Toux chronique</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Essouflement</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Douleurs thoraciques</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Oppression thoracique</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Enflure des mains</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Enflure des pieds</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Enflure des chevilles</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Naus&eacute;es</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Vomissement</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Douleurs abdominales</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Br&ucirclures gastriques</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Constipation</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Diarrh&eacute;e</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Rigidit&eacute; musculaire</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Douleurs aux articulations</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Gonflements articulaires</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Saignement</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Ecchymoses</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Mictions fr&eacute;quentes</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Mictions excessives</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Soif excessive</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Faim excessive</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Bouff&eacute;es de chaleur</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Dysurie(Miction douloureuse)</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Urine sanglante</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Selles sanglantes</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Incontinence urinaire</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Difficult&eacute;s sexuelles</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Relations sexuelles douloureuses</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Eruption cutan&eacute;e</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Angoisse</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Attaques de panique</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Difficult&eacute;s de concentration</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Insomnie</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Fracture(s) des os</label>
+                <br>
+                <label for="">Autre(s)? Veuillez pr&eacute;ciser</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+
+            <section id="antécédents-menstruels">
+                <span>Antécédents menstruels et de grossesse</span>
+                <label for="">A quel &acirc;ge avez vous eu votre premier cycle menstruel </label><br>
+                <input type="number" name="" id=""><br>
+                <label for="">Quand avez vous eu votre dernier cycle menstruel?</label><br>
+                <input type="date" name="" id=""><br>
+                <label for="">Combien de temps dure g&eacute;n&eacute;ralement vos r&egrave;gles?</label><br>
+                <input type="number" name="" id=""><br>
+                <label for="">Delai(en jours) entre menstruations?</label><br>
+                <input type="number" name="" id=""><br>
+                <label for="">Lequel/lesquels de ces moyens de contraception utilisez vous ou avez vous
+                    utilis&eacute;?</label><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Aucun</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Pillule</label>
+                <label for="">, Laquelle/Lesquelles?</label>
+                <input type="text" name="" id="" placeholder="Liste de pillule(s)">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">St&eacute;rilet</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Pessaire</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Pr&eacute;servatif</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Abstinence</label>
+                <br>
+                <label for="">Autre(s)? Veuillez pr&eacute;ciser</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <label for="">Etes vous enceinte?</label><br>
+                <label for="">Oui</label>
+                <input type="radio" name="" id=""><br>
+                <label for="">Non</label>
+                <input type="radio" name="" id=""><br>
+                <label for="">Combien de grossesses(Fausses couches et interruptions comprises) avez vous deja
+                    eues?</label><br>
+                <input type="number" name="" id="">
+            </section>
+
+            <section id="anlyses-operations">
+                <span>Analyse(s)</span>
+                <label for="">Avez-vous deja subi les tests suivants? Quels en &aacute;taient les
+                    r&eacute;sultats?</label><br>
+                <input type="checkbox" name="" id="">
+                <label for="">D&eacute;pistage du cancer colorectal? &#09;</label>
+                <label for="">R&eacute;sultat:</label>
+                <input type="radio" name="" id="">
+                <label for="">Positif&nbsp</label>
+                <input type="radio" name="" id="">
+                <label for="">N&eacute;gatif</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">D&eacute;pistage du cancer du sein? &#09;</label>
+                <label for="">R&eacute;sultat:</label>
+                <input type="radio" name="" id="">
+                <label for="">Positif&nbsp</label>
+                <input type="radio" name="" id="">
+                <label for="">N&eacute;gatif</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">D&eacute;pistage du cancer de prostate? &#09;</label>
+                <label for="">R&eacute;sultat:</label>
+                <input type="radio" name="" id="">
+                <label for="">Positif&nbsp</label>
+                <input type="radio" name="" id="">
+                <label for="">N&eacute;gatif</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">D&eacute;pistage du cancer du poumon? &#09;</label>
+                <label for="">R&eacute;sultat:</label>
+                <input type="radio" name="" id="">
+                <label for="">Positif&nbsp</label>
+                <input type="radio" name="" id="">
+                <label for="">N&eacute;gatif</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Test de papanicolau par frottis(Test de pap)?</label>
+                <label for="">R&eacute;sultat</label>
+                <input type="radio" name="" id="">
+                <label for="">Positif&nbsp</label>
+                <input type="radio" name="" id="">
+                <label for="">N&eacute;gatif</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Autre(s)? Veuillez pr&eacute;ciser</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br>
+            </section>
+
+            <section>
+                <span>Histoire vaccinale</span><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Dipht&eacute;rie, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">T&eacute;tanos, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Polio, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Coqueluche, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Rougeole, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Oreillons, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Rub&eacute;ole, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Pneumocoque, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">M&eacute;ningite B, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">M&eacute;ningite C, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">HPV, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Hepatite B, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Grippe, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Zona, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Covid 19, Quand?</label>
+                <input type="date" name="" id="">
+                <br>
+                <label for="">Autre(s)? Veuillez pr&eacute;ciser</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+
+            <section id="allergies">
+                <span>Allergie(s)</span><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Allergies r&eacute;spiratoires(Asthme, rhumes des foins, etc.)</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Allergies alimentaires(Fruits exotiques, l'arachide, le gluten, les fruits de mer et les
+                    crustac&eacute;s)</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Allergies au latex(gants, pr&eacute;servatifs,etc.)</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Maladie alergique de la peau(Cutan&eacute;e, urticaire, ecz&eacute;ma, etc.)</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Allergique &agrave; un ou plusieurs m&eacute;dicaments? Lequel/Lesquels: </label>
+                <input type="text" placeholder="Liste de m&eacute;dicament(s)">
+                <br>
+                <label for="">Autres? Veuillez pr&eacuteciser:</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+
+            <section id="antécédents-chirugicaux">
+                <span>Ant&eacute;c&eacute;dents chirugicaux</span><br>
+                <input type="radio" name="" id="">
+                <label for="">Non</label><br>
+                <input type="radio" name="" id="">
+                <label for="">Oui(Veuillez pr&eacute;ciser)</label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Liste de chirugie(s)"></textarea>
+            </section>
+            <input type="submit" value="Soumettre" class="submit-button">
+        </form>
+    </section>
+<script src="../index.js"></script>
+</body>
+
+</html>

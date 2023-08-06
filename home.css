@@ -1,0 +1,119 @@
+@media screen and (min-width:200px) and (max-width:1300px) {
+    html {
+        background: rgb(15, 112, 150);
+        background: linear-gradient(144deg, rgba(15, 112, 150, 1) 0%, rgba(112, 52, 70, 1) 100%) no-repeat center center fixed;
+        /*     background: rgb(15,38,150); */
+        /* background: linear-gradient(144deg, rgba(15,38,150,1) 50%, rgba(89,112,52,0) 100%); */
+        background-size: cover;
+        margin: 0;
+        width: 100%;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    span{
+      font-size: 12px;
+      padding:4px;
+      text-align: center;
+    }
+
+    .menu{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .menu li{
+      width:auto;
+      position:relative;
+      left:-40px;
+      text-align:center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 70%;
+        gap: 16px;
+    }
+
+    li {
+        list-style: none;
+        width: 420px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 24px;
+        border-radius: 0px;
+        box-shadow: 1px 1px 1px 1px #FFFFFF75;
+        font-size: 1.25rem;
+        cursor: pointer;
+        margin-left: 42px;
+    }
+
+    li:hover {
+        background-color: #21336375;
+    }
+
+    .item- {
+        padding: 4px 0px 4px 2px;
+        color: white;
+        background-color: none;
+        border: 0px solid white;
+        border-radius: 1px;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left:0;
+        right: 0;
+        width: 100vw;
+        margin: 0;
+        background-color: black;
+        border: none;
+        padding: 1rem;
+        font-size: 1.25rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu .item-{
+      border:none;
+      box-shadow:none;
+    }
+
+    .back-icon {
+        position: fixed;
+        left: 4px;
+    }
+
+    .icon {
+        float: left;
+        margin-left: 2rem;
+    }
+
+
+    /* .i1{
+  background-color:#FD841F;
+}
+.i2{
+  background-color:#E14D2A;
+}
+.i3{
+  background-color:#CD104D;
+}
+.i4{
+  background-color:#9C2C77;
+}
+.i5{
+  background-color:#FF7C7C;
+}
+.i6{
+  background-color:#FFC4C4;
+} */
+}

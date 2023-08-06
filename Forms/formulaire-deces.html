@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de d&eacute;c&egrave;s</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;0,900;1,900&family=Roboto:wght@300&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="../forms.css">
+</head>
+
+<body>
+    <div class="menu">
+        <li class="item- home">
+            <!-- <span class="back-icon material-symbols-outlined">
+            arrow_back
+        </span> -->
+            <span class="material-symbols-outlined">
+                home
+            </span><br><span>Page d'accueil</span>
+            <!-- Retour vers la page d'acceuil -->
+        </li>
+        <li class="item- settings">
+            <span class="material-symbols-outlined">
+                settings
+            </span><br>
+            <span>Paramètres</span>
+        </li>
+    </div>
+    <section class="form-container">
+
+        <form action="">
+            <span>Formulaire de d&eacute;c&egrave;s</span>
+        <section id="information-personelles">
+            <span>Informations personelles</span><br>
+            <input type="text" name="" id="" placeholder="Nom de famille">
+            <input type="text" name="" id="" placeholder="Prénom"><br>
+            <label for="">Date de naissance</label><br>
+            <input type="date" name="" id=""><br>
+            <label>Genre</label><br>
+            <label for="">Masculin</label>
+            <input type="checkbox" name="male" id="">
+            <label for="">Féminin</label>
+            <input type="checkbox" name="female" id=""><br>
+            <input type="tel" name="" id="" placeholder="Numéro de téléphone"><br>
+            <label for="">Addresse</label><br>
+            <input type="text" name="" id="" placeholder="Rue"><br>
+            <input type="text" name="" id="" placeholder="Ville"><br>
+            <input type="text" name="" id="" placeholder="Département"><br>
+            <input type="email" name="" placeholder="Addresse e-mail" id=""><br>
+            <label>Etat civil</label><br>
+            <select name="" id="">
+                <option value="">Célibataire</option>
+                <option value="">Marié(e)</option>
+                <option value="">Séparé/Divorcé</option>
+                <option value="">Veuf/Veuve</option>
+            </select><br>
+        </section>
+
+        <section id="proches">
+            <span>Parent(s)/Famille/Proche(s)</span><br>
+            <input type="text" name="" id="" placeholder="Nom de famille"><br>
+            <input type="text" name="" id="" placeholder="Pr&eacute;nom"><br>
+            <input type="tel" name="" id="" placeholder="Numéro de t&eacute;l&eacute;phone"><br>
+            <input type="email" name="" id="" placeholder="Addresse e-mail"><br>
+        </section>
+
+        <section id="Authentification-corps">
+            <span>Authentification du corps</span><br>
+            <input type="number" name="" id="" placeholder="Numéro d'identification médicale"><br>
+            <input type="number" name="" id="" placeholder="Numéro d'identification de citoyen"><br>
+            <label for="">Empreinte digitale</label><br>
+            <img style="width:75px;height:75px;" src="./images/fingerprint.jpeg" alt="empreinte digitale"
+                class="empreinte-digitale">
+        </section>
+
+        <section id="cause-de-décès">
+            <span>Cause de décès</span><br>
+            <input type="radio" name="" id="">
+            <label for="">Cause inconnue</label>
+            <br>
+            <input type="radio" name="" id="">
+            <label for="">Homicide</label>
+            <br>
+            <input type="radio" name="" id="">
+            <label for="">Suicide</label>
+            <br>
+            <input type="radio" name="" id="">
+            <label for="">Cause naturelle</label>
+            <br>
+            <label for="">Y a-t-il des membres manquants?</label><br>
+            <input type="radio" name="" id="">
+            <label for="">Non</label><br>
+            <input type="radio" name="" id="">
+            <label for="">Oui? Veuillez préciser</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label for="">Une autopsie a-t-elle &eacute;t&eacute; r&eacute;alis&eacute;e ou sera-t-elle
+                r&eacute;alis&eacute;e?</label><br>
+            <input type="radio" name="" id="">
+            <label for="">Non</label><br>
+            <input type="radio" name="" id="">
+            <label for="">Oui</label><br>
+            <label for="">Informations compl&eacute;mentaires? Veuillez pr&eacute;ciser</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        </section>
+
+        <section id="traumatisme-corporel">
+            <span>Traumatisme corporel</span><br>
+            <label for="">L&eacute;gende des couleurs</label><br>
+            <div id="traumatisme-contondant"></div>
+            <label for="">Traumatismes contondants</label><br>
+            <div id="traumatisme-pénétration"></div>
+            <label for="">Traumatisme par p&eacute;n&eacute;tration</label><br>
+            <div id="brûlure"></div>
+            <label for="">Br&ucirc;lure</label><br>
+            <label for="">Masculin</label><br>
+            <img src="./images/male-body.jpg" alt="" style="width:400px;width:400px"><br>
+            <label for="">F&eacute;minin</label><br>
+            <img src="./images/female-body.avif" alt="" style="width:400px;width:400px"><br>
+        </section>
+
+        <section id="fluides-corporels">
+            <span>Examen(s) de liquide corporel</span><br>
+            <label for="">Taux d'alcool&eacute;mie</label>
+            <input type="text" name="" id="" placeholder="mg/l"><br>
+            <label for="">Taux de sodium</label>
+            <input type="text" name="" id="" placeholder="mg/l"><br>
+            <label for="">Taux de glyc&eacute;mie</label>
+            <input type="text" name="" id="" placeholder="mg/l">
+        </section>
+
+        <section id="approbation-médecin">
+            <span>Approbation du m&eacute;decin</span><br>
+            <input type="text" name="" id="" placeholder="Nom de famille du m&eacute;decin">
+            <input type="text" name="" id="" placeholder="Pr&eacute;nom du m&eacute;decin"><br>
+            <input type="date" name="" id=""><br>
+            <input type="text" name="" id="" placeholder="Signature du m&eacute;decin">
+        </section>
+        <input type="submit" value="Soumettre" class="submit-button">
+
+        </form>
+    </section>
+    <script src="../index.js"></script>
+</body>
+
+</html>

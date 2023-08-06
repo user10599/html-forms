@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signes vitaux et habitudes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;0,900;1,900&family=Roboto:wght@300&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="../forms.css">
+</head>
+
+<body>
+<div class="menu">
+    <li class="item- home">
+        <!-- <span class="back-icon material-symbols-outlined">
+        arrow_back
+    </span> -->
+        <span class="material-symbols-outlined">
+            home
+        </span><br><span>Page d'accueil</span>
+        <!-- Retour vers la page d'acceuil -->
+    </li>
+    <li class="item- settings">
+        <span class="material-symbols-outlined">
+            settings
+        </span><br>
+        <span>Paramètres</span>
+    </li>
+</div>
+<section class="form-container">
+    <form action="">
+        <span>Signes vitaux et habitudes</span>
+
+        <section id="identifiant-dossier">
+            <label for="">Date du jour</label><br>
+            <input type="date" name="" id=""><br>
+            <input type="number" name="" id="" placeholder="Identifiant de dossier"><br>
+            <input type="text" name="" id="" placeholder="Num&eacute;ro d'identification du dossier de visite"><br>
+            <input type="text" name="" id="" placeholder="Numéro d'identit&eacute; medicale"><br>
+        </section>
+
+        <section>
+            <span>Donn&eacute;e medicale</span>
+            <table>
+                <tr>
+                    <td>Poids(kg)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Taille(cm)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Tension art&eacute;rielle(mmHg)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Fr&eacute;quence cardiaque(Battements/minute)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Fr&eacute;quence respiratioire(cycle(s)/minute)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Saturation en oxyg&egrave;ne(%)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Temp&eacute;rature(degr&eacute; Celsius)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Pouls(Battements/minute)</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+            </table>
+            <label for="">Suivez vous un r&eacute;gime sp&eacutecial ou avez vous des habitudes alimentaires
+                sp&eacute;ciales?</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Lesquels?</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Habitudes alimentaires sp&eacute;
+ciales"></textarea><br>
+            <label for="">Faites vous r&eacute;guli&egrave;rement du sport?</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Lequel/Lesquels?</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Liste de sport(s)"></textarea><br>
+            <label for="">Consommez vous ou avez vous deja consomm&eacute; les produits suivants?</label><br>
+            <label for="">Alcool</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Combien de verres par jours?</label>
+            <input type="number" name="" id="" placeholder="Nombre de verres"><br>
+            <label for="">Tabac</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Combien de cigarette(s) par jours?</label>
+            <input type="number" name="" id="" placeholder="Nombre de cigarettes"><br>
+            <label for="">Drogue(s)</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Laquelle/Lesquelles et dans quelle mesure?</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label for="">Quantit&eacute d'heures de sommeil par jour:</label>
+            <select name="" id="">
+                <option value="">0-3</option>
+                <option value="">3-6</option>
+                <option value="">6-9</option>
+                <option value="">9-12</option>
+            </select><br>
+            <label for="">Prenez vous des m&eacute;dicaments sous prescription?</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Lesquels et dans quelle mesure(dosage)?</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label for="">Prenez vous des m&eacute;dicaments sans prescription?</label><br>
+            <input type="radio" name="" id=""><label for="">Non</label><br>
+            <input type="radio" name="" id=""><label for="">Oui? Lesquels et dans quelle mesure(dosage)?</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label for="">Description/observation(Infirmi&egrave;re)</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        </section>
+
+
+        <section id="revue-fonctionelle-appareils">
+            <span>Revue fonctionnelle des appareils</span><br>
+            <label for="">Constitutionel/Ensemble</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <label for=""></label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Fatigue</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Perte de poids</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Gain de poids</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Fi&egrave;vre</label>
+            <br>
+
+            <label for="">Probl&egrave;mes occulaires</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Changements de visions</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aveugle</label>
+            <br>
+
+            <label for="">Oreille, nez,gorge</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Mal de t&ecirc;te</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Sinusite</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Bourdonnement dans les oreilles</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Saignement de nez</label>
+            <br>
+
+            <label for="">Cardiovasculaire</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Essouflement</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Douleur thoracique</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Oed&egrave;me</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Palpitation</label>
+            <br>
+
+            <label for="">Respiratoire</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Respiration sifflante</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Toux</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Toux chronique avec rejets de sang</label>
+            <br>
+
+            <label for="">Gastro-int&eacute;stinale</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Naus&eacute;e</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Vomissements</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Constipation</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Diarrh&eacute;e</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Selles sanglantes</label>
+            <br>
+
+            <label for="">G&eacute;nito-urinaire</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Urine sanglante</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Miction douloureuse</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Miction urgente</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Changement de fr&eacute;quence</label>
+            <br>
+
+            <label for="">Musculo-squelettique</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Faiblesse musculaire</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Douleur musculaire</label>
+            <br>
+
+            <label for="">Peau</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">D&eacute;mangeaisons</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">S&egrave;che et/ou prurigineuse</label>
+            <br>
+
+            <label for="">Sein</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Douleur mammaire</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Ecoulement du mamelon</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Masse mammaire</label>
+            <br>
+
+            <label for="">Neurologique</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Evanouissement</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Convulsions</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Engourdissement</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Difficult&eacute; &agrave; marcher</label>
+            <br>
+
+            <label for="">Psychatrique</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">D&eacute;pression</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Angoisse</label>
+            <br>
+
+            <label for="">Endocrine</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Peau s&egrave;che</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Soif anormale</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Bouff&eacute;es de chaleur</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Sueurs nocturnes</label>
+            <br>
+
+            <label for="">Sang/lymphe</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Aucun</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Ecchymoses faciles</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Saignement anormal</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Glande enfl&eacute;e</label>
+            <br>
+
+            <label for="">Autre(s)? Veuillez pr&eacute;ciser</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </section>
+
+        <section id="ordonnances">
+            <span>Ordonnance(s)</span><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Hospitalisation</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Raison"></textarea>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Pr&eacute;scription</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Raison"></textarea>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Observation externe</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Raison"></textarea>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Transfert</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Raison"></textarea>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">Autre(s)? Veuillez pr&eacute;ciser</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Action(s) et raison(s)"></textarea>
+            <br>
+            <label for="">Notes compl&eacute;mentaires</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </section>
+
+        <section id="approbation-médecin">
+            <span>Approbation du m&eacute;decin</span><br>
+            <input type="text" name="" id="" placeholder="Nom de famille du m&eacute;decin">
+            <input type="text" name="" id="" placeholder="Pr&eacute;nom du m&eacute;decin"><br>
+            <input type="date" name="" id=""><br>
+            <input type="text" name="" id="" placeholder="Signature du m&eacute;decin">
+        </section>
+<input type="submit" value="Soumettre" class="submit-button">
+</form>
+</section>
+<script src="../index.js"></script>
+</body>
+</html>

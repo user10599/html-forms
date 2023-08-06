@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouveau patient</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;0,900;1,900&family=Roboto:wght@300&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="../forms.css">
+</head>
+
+<body>
+    <div class="menu">
+        <li class="item- home">
+            <!-- <span class="back-icon material-symbols-outlined">
+            arrow_back
+        </span> -->
+            <span class="material-symbols-outlined">
+                home
+            </span><br><span>Page d'accueil</span>
+            <!-- Retour vers la page d'acceuil -->
+        </li>
+        <li class="item- settings">
+            <span class="material-symbols-outlined">
+                settings
+            </span><br>
+            <span>Paramètres</span>
+        </li>
+    </div>
+    <div class="forms">
+        <section class="form-container">
+            <form action="">
+                <span>Enregistrer un nouveau patient</span>
+                <section id="identifiant-dossier">
+                    <label for="">Date du jour</label><br>
+                    <input type="date" name="" id=""><br>
+                    <input type="number" name="" id="" placeholder="Identifiant de dossier">
+                </section>
+                <section id="information-personelles">
+                    <span>Informations personelles</span><br>
+                    <input type="text" name="" id="" placeholder="Nom de famille">
+                    <input type="text" name="" id="" placeholder="Prénom"><br>
+                    <label for="">Date de naissance</label><br>
+                    <input type="date" name="" id=""><br>
+                    <label>Genre</label><br>
+                    <div class="input-inline">
+                        <label for="">Masculin</label>
+                        <input type="checkbox" name="male" id="">
+                        <label for="" class="left-standard-spacing">Féminin</label>
+                        <input type="checkbox" name="female" id=""><br>
+                    </div>
+                    <input type="tel" name="" id="" placeholder="Numéro de téléphone"><br>
+                    <label for="">Addresse</label><br>
+                    <input type="text" name="" id="" placeholder="Rue">
+                    <input type="text" name="" id="" placeholder="Ville">
+                    <input type="text" name="" id="" placeholder="Département">
+                    <input type="email" name="" placeholder="Addresse e-mail" id=""><br>
+                    <label>Etat civil</label><br>
+                    <select name="" id="">
+                        <option value="">Célibataire</option>
+                        <option value="">Marié(e)</option>
+                        <option value="">Séparé/Divorcé</option>
+                        <option value="">Veuf/Veuve</option>
+                    </select><br>
+                </section>
+
+                <section id="Profession">
+                    <span>Profession</span><br>
+                    <input type="text" name="" id="" placeholder="Profession/Métier">
+                    <input type="text" name="" id="" placeholder="Nom de l'entreprise">
+                    <input type="tel" name="" id="" placeholder="Numéro de téléphone de l'entreprise">
+                </section>
+
+                <section id="coordonnées-de-tutel">
+                    <span>Coordonnées du/de la tuteur/tutrice du patient</span>
+                    <input type="text" name="" id="" placeholder="Nom de famille">
+                    <input type="text" name="" id="" placeholder="Prénom">
+                    <input type="text" name="" id="" placeholder="Nature de la relation"><br>
+                    <label for="">Date de naissance</label><br>
+                    <input type="date" name="" id=""><br>
+                    <label for="">Addresse</label><br>
+                    <input type="text" name="" id="" placeholder="Rue">
+                    <input type="text" name="" id="" placeholder="Ville">
+                    <input type="text" name="" id="" placeholder="Département">
+                    <input type="email" name="" placeholder="Addresse e-mail" id=""><br>
+                </section>
+
+                <section id="assureur">
+                    <span>Compagnie d'assurance</span><br>
+                    <input type="text" name="" id="" placeholder="Nom de l'entreprise">
+                    <input type="tel" name="" id="" placeholder="Numéro de téléphone">
+                    <input type="number" name="" id="" placeholder="Numéro de compte">
+                    <input type="number" name="" id="" placeholder="Numéro d'identification du client">
+                </section>
+
+                <section id="médecin-primaire">
+                    <span>Médecin de soins primaires(Précédent ou actuel)</span>
+                    <input type="text" name="" id="" placeholder="Nom de famille">
+                    <input type="text" name="" id="" placeholder="Prénom">
+                    <input type="tel" name="" id="" placeholder="Numéro de téléphone">
+                </section>
+
+                <section id="contact-urgence">
+                    <span>Contact d'urgence</span>
+                    <input type="text" name="" id="" placeholder="Nom de famille">
+                    <input type="text" name="" id="" placeholder="Prénom">
+                    <input type="text" name="" id="" placeholder="Nature de la relation"><br>
+                    <label for="">Addresse</label><br>
+                    <input type="text" name="" id="" placeholder="Rue">
+                    <input type="text" name="" id="" placeholder="Ville">
+                    <input type="text" name="" id="" placeholder="Département">
+                    <input type="tel" name="" id="" placeholder="Numéro de téléphone">
+                    <input type="email" name="" id="" placeholder="Addresse e-mail">
+                </section>
+
+                <section id="authentification-personne">
+                    <span>Authentification de la personne</span>
+                    <input type="number" name="" id="" placeholder="Numéro d'identification médicale">
+                    <input type="number" name="" id="" placeholder="Numéro d'identification de citoyen"><br>
+                    <label for="">Empreinte digitale</label><br>
+                    <img style="width:75px;height:75px;" src="./images/fingerprint.jpeg" alt="empreinte digitale"
+                        class="empreinte-digitale">
+                </section>
+
+                <section id="consentement" class="">
+                    <input type="checkbox" name="" id="" class="input-auto-width">
+                    <label for="" class="bold-text">Je confirme avoir lu et compris les modalités et conditions</label>
+                    <label for="">Date du jour</label>
+                    <input type="date" name="" id="">
+                </section>
+
+                <input type="submit" value="Soumettre" class="submit-button">
+            </form>
+        </section>
+
+        
+    </div>
+    <script src="../index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;0,900;1,900&family=Roboto:wght@300&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="../forms.css">
+</head>
+<body>
+  <div class="menu">
+    <li class="item- home">
+        <!-- <span class="back-icon material-symbols-outlined">
+        arrow_back
+    </span> -->
+        <span class="material-symbols-outlined">
+            home
+        </span><br><span>Page d'accueil</span>
+        <!-- Retour vers la page d'acceuil -->
+    </li>
+    <li class="item- settings">
+        <span class="material-symbols-outlined">
+            settings
+        </span><br>
+        <span>Paramètres</span>
+    </li>
+</div>
+    <section class="form-container">
+        <form action="">
+            <span>Formulaire de d&eacute;charge</span><br>
+            <section id="identifiant-dossier">
+                <label for="">Date du jour</label><br>
+                <input type="date" name="" id=""><br>
+                <input type="number" name="" id="" placeholder="Identifiant de dossier"><br>
+                <input type="number" name="" id="" placeholder="Identifiant de visite m&eacute;dicale">
+            </section>
+
+            <section id="information-personelles">
+                <span>Informations personelles</span><br>
+                <input type="text" name="" id="" placeholder="Nom de famille">
+                <input type="text" name="" id="" placeholder="Prénom"><br>
+                <label for="">Date de naissance</label><br>
+                <input type="date" name="" id=""><br>
+                <label>Genre</label><br>
+                <label for="">Masculin</label>
+                <input type="checkbox" name="male" id="">
+                <label for="">Féminin</label>
+                <input type="checkbox" name="female" id=""><br>
+                <input type="tel" name="" id="" placeholder="Numéro de téléphone"><br>
+                <label for="">Addresse</label><br>
+                <input type="text" name="" id="" placeholder="Rue">
+                <input type="text" name="" id="" placeholder="Ville">
+                <input type="text" name="" id="" placeholder="Département">
+                <input type="email" name="" placeholder="Addresse e-mail" id=""><br>
+                <label>Etat civil</label><br>
+                <select name="" id="">
+                    <option value="">Célibataire</option>
+                    <option value="">Marié(e)</option>
+                    <option value="">Séparé/Divorcé</option>
+                    <option value="">Veuf/Veuve</option>
+                </select><br>
+            </section>
+
+            <section id="statut-patient">
+                <span>Status du/de la patient(e)</span><br>
+                <input type="radio" name="" id="">
+                <label for="">Gu&eacute;ri(e)</label><br>
+                <input type="radio" name="" id="">
+                <label for="">Sous observation</label><br>
+            </section>
+
+            <section id="information-maladie">
+                <span>Informations sur la/les maladie(s) li&eacute;e(s) &agrave; cette visite</span><br>
+                <table>
+                    <thead>
+                      <td>Nom de la maladie</td>
+                      <td>symptômes</td>
+                      <td>Pr&eacute;caution(s)</td>
+                    </thead>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                  </table><br>
+                  <label for="">Informations compl&eacute;mentaires</label><br>
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+            </section>
+
+            <section id="liste-m&eacute;dicaments">
+                <span>Liste de m&eacute;dicaments</span><br>
+                <table>
+                    <thead>
+                      <td>Nom</td>
+                      <td>Marque</td>
+                      <td>Dosage</td>
+                    </thead>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                      <td><input type="text" name="" id=""></td>
+                    </tr>
+                  </table>
+            </section>
+
+            <section id="rendez-vous-suivi">
+                <span>Rendez-vous de suivi</span><br>
+                <label for="">Date et heure</label><br>
+                <input type="datetime-local" name="" id=""><br>
+                <label for="">Raison</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <label for="">Adresse et nom du docteur</label><br>
+                <input type="text" name="" id="" placeholder="Nom de famille">
+                <input type="text" placeholder="Prénom"><br>
+                <input type="text" name="" id="" placeholder="Rue">
+                <input type="text" name="" id="" placeholder="Ville">
+                <input type="text" name="" id="" placeholder="D&eacute;partement">
+            </section>
+            <input type="submit" value="Soumettre" class="submit-button">
+        </form>
+    </section> 
+    <script src="../index.js"></script>
+</body>
+</html>
