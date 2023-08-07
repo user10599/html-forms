@@ -80,13 +80,17 @@ td input:focus{
     outline-color:none;
     border:none;
 }
+img{
+    display:block;
+    margin:auto;
+}
 .form-container{
     display:flex;
     justify-content: center;
     width:100vw;
     border:none;
     position:relative;
-    left:-25px;
+    left:0;
     top:75px;
     border:none;
 }
