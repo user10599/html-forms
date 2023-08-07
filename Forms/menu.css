@@ -43,6 +43,10 @@ body{
     margin-left: 42px;
 }
 
+span.material-symbols-outlined{
+    font-size:24px;
+}
+
 /* .menu li:hover {
     background-color: #21336375;
     color:blueviolet;
