@@ -17,7 +17,7 @@ input[type="radio"],input[type="checkbox"]{
     display:inline;
 margin:4px;
 }
-input[type="date"], input[type="datetime-local"]{
+input[type="date"],input[type="datetime-local"]{
     color:rgb(98,98,98);
 }
 input:focus{
