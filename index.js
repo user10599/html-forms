@@ -21,6 +21,7 @@ function homeButtonClicked(){
 var new_patient_location = 'Forms/nouveau-patient.html';
 var visite_medicale_location = 'Forms/visite-medicale.html';
 var signes_vitaux_location = 'Forms/signes-vitaux-habitudes.html';
+var reference_location = 'Forms/reference.html';
 var formulare_transfer_location = 'Forms/transfert.html'; 
 var ordonnance_pharmaceutique_location = 'Forms/ordonnance-pharmaceutique.html';
 var formulaire_de_deces_location = 'Forms/formulaire-deces.html';
@@ -36,6 +37,9 @@ function visitMedicalClicked(){
 
     function vitalSignsClicked(){
         redirectToLink(signes_vitaux_location);
+    }
+    function referenceClicked(){
+        redirectToLink(reference_location);
     }
     function transferClicked(){
         redirectToLink(formulare_transfer_location);
